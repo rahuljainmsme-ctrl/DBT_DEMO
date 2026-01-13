@@ -1,8 +1,8 @@
 with BIKE AS (
 
-    Select distinct 
-    start_station_name as station_name,
-    start_station_id  as start station_id,
+    Select distinct
+    START_STATION_NAME as station_name,
+    START_STATIO_ID  as station_id,
     start_lat as station_lat,
     start_lng as station_lng
     FROM {{ source('demo', 'bike') }}
